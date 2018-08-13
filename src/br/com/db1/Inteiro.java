@@ -12,16 +12,16 @@ public class Inteiro {
 	}
 
 	private void percorreLista(Integer valorInicial, List<Integer> impares) {
-		for(Integer contador = valorInicial; contador < 100; contador++){
+
+		for (Integer contador = valorInicial; contador < 100; contador++) {
 			validaEhPar(impares, contador);
 		}
 	}
 
 	private void validaEhPar(List<Integer> impares, Integer contador) {
-		if(contador % 2 != 0){
+		if (contador % 2 != 0) {
 			impares.add(contador);
 		}
 	}
 
-	
 }

@@ -13,12 +13,11 @@ public class InteiroTest {
 		Inteiro inteiro = new Inteiro();
 		List<Integer> impares =  inteiro.retornaImpares(93);
 
-		
 		assertTrue(impares.get(0) == 93);
 		assertTrue(impares.get(1) == 95);
 		assertTrue(impares.get(2) == 97);
 		assertTrue(impares.get(3) == 99);
 		assertTrue(impares.size() == 4);
 		
-	}
+	}	
 }
